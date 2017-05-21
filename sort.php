@@ -4,6 +4,7 @@
         private $argsFromCLI;
         private $CLIErrorForThis;
         private $fileToReadFrom;
+        private $fileToWriteTo;
         private $db;
         
         public function __construct()

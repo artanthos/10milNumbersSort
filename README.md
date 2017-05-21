@@ -74,3 +74,6 @@ Each method is pretty straight forward.
 * does an ```order by value```
 * dumps the result in the ```sorted_these_10mil.txt``` file
 
+I didn't provide the ```sorted_these_10mil.txt``` (given that Github doesn't allow files > 25MB), instead you can check out the logs folder, ```sorted_these_10mil.txt``` has been chunked down into 5 segments.
+
+Thanks for this challenge. I enjoyed working on it.

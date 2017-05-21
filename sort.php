@@ -108,7 +108,7 @@
 
         public function exportData()
         {
-            $outputFileHandler = @fopen($this->fileToWriteTo, "w");
+            $outputFileHandler = fopen($this->fileToWriteTo, "w");
             $results = $this->db->query('SELECT * FROM numbers ORDER BY value');
             while ($row = $results->fetchArray()) {
                 fwrite($outputFileHandler, $row['value'] . ',');

@@ -15,7 +15,7 @@
             //CLI related
             private function setIOFromCLIEnvironment()
             {
-                $shortOpts  = 'i:o:';
+                $shortOpts  = 'i:o:d:';
                 $IOtypes = array('input', 'output', 'db');
                 
                 foreach ($IOtypes as $IOtype) {
